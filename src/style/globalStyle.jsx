@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-import AnSsangCe from "../fonts/AnSsangCe.ttf";
 
 export const GlobalStyle = createGlobalStyle`
   :root {
@@ -110,8 +109,4 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: normal;
     font-style: normal;
 } */
-@font-face{
-  font-family: "AnSsangCe";
-  src:url(${AnSsangCe}) format("truetype");
-}
 `;
